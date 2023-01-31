@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7c924d62-fe82-4fbc-9485-99e71a4581b6" name="Lokal Ci" url="http://localhost">
+        <fileTransfer mountedRoot="C:\xampp2\htdocs\ci" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="706a4d46-3327-480c-ada2-fb6dbb5b9178" name="WebentwicklungLive" url="ssh.strato.de">
+        <fileTransfer accessType="SFTP" host="ssh.strato.de" port="22" sshConfigId="c1d7f08f-270f-4dca-bff0-7102393c2abd" sshConfig="sftp_egolas@schifferweb.de@ssh.strato.de:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
